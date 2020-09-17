@@ -1,64 +1,43 @@
 
-body h1,h2,h3,h4,h5,h6,ul, li {
-    margin: 0;
-}
-
-
 header {
     max-width: 960px;
     margin: 0 auto;
-    background-image: url(/01-JoesBB/images/header2.jpg);
-    height: 300px;
-    justify-content: center;
+    background-image: url("/01-JoesBB/images/header5.jpg");
+    height: 600px;
+}
 
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 h1 {
-    color: #fff;
-    justify-content: center;
-    
+    color: red;
 }
 
 header h2 {
-    color: #fff;
-    justify-content: center;
-    display: flex;
+    color: red;
 }
 
- main h2{
-    color: #000;
+main h2 {
+    color: black;
 }
 
-footer {
-    display: flex;
-    
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-    
-    
-}
-
-main {
+#company{
     display: flex;
     justify-content: center;
-    background-color: burlywood;
-
-    
-    
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
 body{
-    background-color: burlywood;
-    
-}
- #company {
-     display: flex;
-     justify-content: center;
- }
-ul {
-    display: flex;
-    
+    background-color: darkgray;
 }
 
-li{
-    columns: auto;
+footer{
+    display: flex;
+    justify-content: center;
 }
